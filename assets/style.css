@@ -1,0 +1,53 @@
+h1 {
+  background-color: rgb(147, 153, 152);
+  color: rgba(255, 255, 255, 0.846);
+  position: sticky;
+  top: 0%;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0px 0px 10px rgb(124, 124, 124);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+h2 {
+  background-color: rgb(75, 113, 143);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0px 0px 10px rgb(124, 124, 124);
+}
+
+.skill {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  color: rgb(34, 34, 34);
+  display: flex;
+  text-wrap: wrap;
+  
+}
+
+nav {
+  border: 2px solid rgb(0, 0, 0);
+  text-decoration: none;
+  color: rgb(34, 34, 34) ;
+
+}
+
+* {
+  background-color: rgb(158, 158, 171);
+}
+
+/*id(#), class(.), etiquetas, es el nombre*/
+/* el punto este * es el selector global*/
+/* posiciones: static, relative, absolute, fixed*/
+/*static: quieto en el lugar de origen, relative:le pongo la posición yo, absolute es el relative pero fuera del flujo de contenedores, fixed: se mueve con el scroll, sticky: se mueve con el scroll, pero se pega en el borde de la pantalla*/
